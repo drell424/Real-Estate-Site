@@ -1,0 +1,356 @@
+/* 
+Project Name: Renoventures Site
+Client: Renoventures LLC
+Author: Darrell Simmons
+Developer @GA in NYC
+*/
+
+
+/* LAYOUT */
+
+.container {
+	background-color: #F8F8FF;
+
+}
+
+.logo {
+	background-color: #F8F8FF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.navbar {
+	width:50%;
+	margin: 0 auto;
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px solid #164854;
+	max-width: 800px;
+
+}
+
+.about {
+	background-color: #F8F8FF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+
+.project-about {
+	background-color: #164854;
+	color: #F8F8FF;
+	text-align: center;
+	padding: 10px 0 20px 0;
+	overflow: hidden;
+	display: none;
+}
+
+.headline {
+	background-color: #164854;
+	color: #F8F8FF;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+
+.divider {
+	border-bottom: 1px dotted #F8F8FF;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.divider:first-of-type {
+	border-bottom: 1px solid #F8F8FF;
+}
+
+.project-about .divider {
+	width: 100%;
+}
+
+.half {
+	margin-top: 20px;
+	width: 50%;
+	overflow: hidden;
+}
+
+.specs {
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.border-right {
+	border-right: 1px solid;
+}
+
+.border-left {
+	border-left: 1px solid;
+}
+
+.specs li {
+	display: inline-block;
+	padding:0 10px;
+}
+
+body {
+	background-color: #F8F8FF;
+}
+
+.projects_container {
+	background-color: #164854;
+}
+
+.projects-wrapper {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #164854;
+	padding-bottom: 20px;
+	max-width: 1140px;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.before {
+	display: inline-block;
+	width: 48%;
+	padding-left: 3%;
+	overflow: hidden;
+}
+
+.after {
+	display: inline-block;
+	width: 48%;
+	overflow: hidden;
+}
+
+footer {
+	background-color: #F8F8FF;
+	color: #164854;
+	font-size: 18px;
+	padding:20px 30px;
+	overflow: hidden;
+}
+
+.social {
+	width:40%;
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+/* TYPE */
+
+.show_button,
+p,
+.specs,
+.typestyle-1 {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 100;
+}
+
+.about p,
+.headline h3,
+footer p,
+
+.project-gallery h3, 
+h3,
+h4,
+header h1,
+.typestyle-2 {
+     font-family: 'Raleway', sans-serif; 
+     font-weight: 400;   
+}
+
+
+.navbar li,
+h2,
+.typestyle-3 {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 600;
+}
+
+
+/* ADDITIONAL STYLES */
+
+.logo img {
+	display: block;
+	margin: 0 auto;
+	width: 20%;
+	height: 20%;
+}
+
+.navbar ul {
+	text-align: center;
+	padding-top: 8px;
+}
+
+.navbar li {
+	display: inline-block;
+	
+}
+
+.navbar li a {
+	color: #164854;
+	text-decoration: none;
+	vertical-align: middle;
+	padding: 0 20px;
+	transition: color .5s;
+	-webkit-transition: color .5s; 
+	-mozkit-transition: color .5s;
+}
+
+.navbar li a:hover {
+	color:#67b947;
+}
+
+.about h2 {
+	text-align: center;
+	font-size: 36px;
+	color: #164854
+}
+
+.about p {
+	text-align: center;
+	padding-top: 10px;
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.3em;
+	line-height: 1.2em;
+	color: #164854;
+}
+
+.project-about h2 {
+	font-size: 36px; 
+}
+
+.project-about h3 {
+	font-size: 24px; 
+	margin-bottom: 1%;
+}
+
+.project-about h4 {
+	padding-bottom: 10px;
+	color: red;
+}
+
+.headline h2 {
+	font-size: 36px; 
+	padding-bottom: 10px;
+}
+
+.headline h3 {
+	font-size: 24px; 	
+}
+
+.prop_head h4 {
+	letter-spacing: 1px;
+}
+
+.specs h4 {
+	font-size: 24px;
+}
+
+.specs ul li {
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.image-border {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #F8F8FF;
+	margin-bottom: 10px;
+}
+
+.image-border img {
+	width: 100%;
+	padding-top: 2px;
+}
+
+.c {
+	clear: both;
+}
+
+.project-gallery h3 {
+	text-align: center;
+	font-size: 24px;
+}
+
+.sold {
+	text-decoration: line-through;
+}
+
+.social li {
+	display: inline-block;
+	float: right;
+	margin: 0 7px;
+}
+
+.social img {
+	padding-top: 18px;
+}
+
+.social a {
+	color: #164854;
+	text-decoration: none;
+	width: 100px;
+	height: 100px;
+}
+
+.box {
+	background: #67b947 url(../images/socialcorner.png) right top no-repeat;
+	width: 50px;
+	height: 50px;
+	display: block;
+	text-align: center;
+}
+
+.box i {
+	margin-top: 9px; 
+}
+
+footer p {
+	display: inline-block;
+	padding-top: 2%;
+}
+
+
+#bx-pager a {
+	width: 100px;
+}
+
+.show_button {
+	display: inline-block;
+	position: relative;
+	top: -50px;
+	left: -300px;
+	cursor: pointer;
+}
+
+.prop_head {
+	margin-bottom: 2%;
+}
+
+/* ##### BX SLIDER #### */
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background-color: #F8F8FF;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background-color: #67b947;
+}
+
+
